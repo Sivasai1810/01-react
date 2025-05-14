@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-////// textarea ,input,radio,select,radio
+////// textarea ,input,select,radio
 function onchanges(){
      const [name,setName]=useState("");
     const [comment ,setComment]=useState("")
