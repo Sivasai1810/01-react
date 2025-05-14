@@ -142,8 +142,58 @@ border-radius: 10px;
 .input{
  cursor: pointer;
 } */
- .fruit{
+ /* .fruit{
   text-align: center;
   display: block;
   
- }
+ } */
+  
+  .container {
+  font-family: sans-serif;
+  text-align: center;
+  border: 0.5px double rgb(18, 122, 136);
+  border-radius: 10px;
+  box-shadow: 1px 1px gray;
+  background-color: burlywood;
+}
+.addbutton {
+  background-color: rgb(86, 92, 70);
+  margin: 5px;
+  cursor: pointer;
+}
+.input {
+  border-radius: 5px;
+}
+.bodypart {
+  background-color: gray;
+  border-radius: 3px;
+  font-size: small;
+  padding: px;
+}
+.deletebutton {
+  padding: 2px;
+  margin: 2px;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  background: rgb(122, 180, 34);
+  cursor: pointer;
+}
+.upbutton {
+  padding: 2px;
+  margin: 2px;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  background: rgb(122, 180, 34);
+  cursor: pointer;
+}
+.downbutton {
+  padding: 2px;
+  margin: 2px;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 3px;
+  background: rgb(122, 180, 34);
+  cursor: pointer;
+}
