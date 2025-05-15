@@ -148,7 +148,7 @@ border-radius: 10px;
   
  } */
   
-  .container {
+  /* .container {
   font-family: sans-serif;
   text-align: center;
   border: 0.5px double rgb(18, 122, 136);
@@ -196,4 +196,8 @@ border-radius: 10px;
   border-radius: 3px;
   background: rgb(122, 180, 34);
   cursor: pointer;
-}
+} */
+.box{
+  border: 1px solid black;
+  padding: 25px; 
+} 
