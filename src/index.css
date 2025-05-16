@@ -197,7 +197,64 @@ border-radius: 10px;
   background: rgb(122, 180, 34);
   cursor: pointer;
 } */
-.box{
+/* .box{
   border: 1px solid black;
   padding: 25px; 
-} 
+}  */
+  .stopwatch {
+  background-color: rgb(148, 131, 131);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.stopwatch .format {
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: monospace;
+}
+.controls {
+  padding: 1px;
+  margin: 2px 2px;
+}
+.startbutton {
+  font-size: medium;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 4px;
+  margin: 4px;
+  color: white;
+  background-color: rgb(21, 216, 21);
+  box-shadow: none;
+  cursor: pointer;
+}
+.stopbutton {
+  font-size: medium;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 4px;
+  margin: 4px;
+  color: white;
+  background-color: rgb(216, 21, 21);
+  box-shadow: none;
+  cursor: pointer;
+}
+.resetbutton {
+  font-size: medium;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 4px;
+  margin: 4px;
+  color: white;
+  background-color: rgb(21, 34, 216);
+  box-shadow: none;
+  cursor: pointer;
+}
+.heading {
+  margin-bottom: 10px;
+}

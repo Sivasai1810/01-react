@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Clock from './useref.jsx'
+import Clock from './stopwatch.jsx'
 import  "./index.css"
 
 createRoot(document.getElementById('root')).render(
